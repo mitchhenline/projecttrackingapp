@@ -1,0 +1,31 @@
+.form-container {
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: gainsboro;
+    margin: 50px;
+    width: 800px;
+    padding: 50px;
+    display: inline-block;
+}
+
+.body {
+    background-color: dimgray;
+}
+
+.container-header {
+    color:lightcoral;
+    text-shadow: 1px 1px #1a1c94;
+}
+
+#add-project {
+    width: 1100px;
+}
+
+#main-header {
+    color: lightcoral;
+    margin-left: 200px;
+    margin-top: 200px;
+    text-shadow: 5px 5px #1a1c94;
+    font-size: 50px;
+}
