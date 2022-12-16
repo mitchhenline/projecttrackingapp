@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 app.secret_key = "keep this secret"
 
-user_id = 1
+user_id = 3
 
 @app.route("/")
 def home():
