@@ -39,12 +39,16 @@ def add_project():
         completed = project_form.completed.data
         team_id = project_form.team_selection.data
         
-        new_project = Project(project_name, completed, team_id, description = description)
+        new_project = Project(project_name, description, completed, team_id)
         db.session.add(new_project)
         db.session.commit()
         return redirect(url_for("home"))
     else:
         return redirect(url_for("home"))
+
+@app.route("/delete-project", methods=["DELETE"])
+def delete_project():
+    pass
 
 
 if __name__ == "__main__":
